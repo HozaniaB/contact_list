@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(246, 243, 254);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 60px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form { 
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(68, 1, 252);
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(68, 1, 252);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid rgb(68, 1, 252);
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(68, 1, 252, 0.1);
+}
+
+td img {
+    padding: 8px 0;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+}
