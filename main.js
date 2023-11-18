@@ -32,10 +32,8 @@ function adicionarLinha() {
 
     inputNomeContato.value = '';
     inputNumeroTelefone.value = '';
-
 }
 function atualizarTabela() {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
-
 }
